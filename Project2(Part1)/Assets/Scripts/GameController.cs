@@ -21,6 +21,10 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 
+
+		/// This is to position the cubes, white color to the cube and, to make no more that 16 cubes.
+
+
 	void Start () {
 
 		Xposition = -2;
