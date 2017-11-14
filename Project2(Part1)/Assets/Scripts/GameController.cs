@@ -32,8 +32,9 @@ public class GameController : MonoBehaviour {
 		cubePosition = new Vector3 (14, 0, 0);
 			
 		for (int i = 0; i < 16; i++){
+			
 
-			cubeRow[i] = (GameObject) Instantiate (cubePre, cubePosition, Quaternion.identity);
+			cubeRow[i]	 = (GameObject) Instantiate (cubePre, cubePosition, Quaternion.identity);
 
 			cubePosition += new Vector3 (Xposition, 0, 0);
 
